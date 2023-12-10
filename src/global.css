@@ -13,12 +13,26 @@ button{
     font-size: 20px;
     cursor:pointer;
     transition: 0.4s ease;
+    /* display: block;
+    width: 300px;
+    margin: auto; */
+    
 }
 button:hover{
     color: white;
-    border: none;
+    border: solid 1px transparent;
     background: linear-gradient(45deg , rgba(121, 10, 121, 0.731) , rgba(184, 73, 184, 0.557));
 }
 /* button::after{
     content: '\f08e';
 } */
+
+section{
+    height: 100vh;
+    /* margin: 10px 30px; */
+
+
+}
+:root{
+    
+}
