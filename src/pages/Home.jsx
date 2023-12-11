@@ -15,7 +15,7 @@ function Home() {
         </h1>
         <br />
         <p>
-          I am a 
+          I am a
           <Typewriter
             cursorColor="violet"
             className="Typewriter"
@@ -27,16 +27,37 @@ function Home() {
           />
           <br></br>
         </p>
-        <p style={{fontWeight:"normal", fontSize:"20px"}}>
-        Motivated and ambitious student who recently completed a Bachelor's degree in Computer Applications (BCA). I specialize in full stack development .
+        <p style={{ fontWeight: "normal", fontSize: "20px" }}>
+          Motivated and ambitious student who recently completed a Bachelor's
+          degree in Computer Applications (BCA). I specialize in full stack
+          development .
         </p>
-       <button>About Me</button>
-       <button>Resume</button>
+        <button>About Me</button>
+        <button>Resume</button>
+        <a href="https://www.facebook.com/sombhu.das.5268?mibextid=ZbWKwL">
+          <i className="primary_icon fa-brands fa-github"></i>
+        </a>
       </div>
 
       <div className="right_container">
         <div className="image_container">
-          <img src={dp} alt="" /> 
+          <img src={dp} alt="" />
+          <span className=" abs_pos fb_icon">
+          <a href="https://www.facebook.com/sombhu.das.5268?mibextid=ZbWKwL">
+              <i className="primary_icon fa-brands fa-facebook"></i>
+            </a>
+          </span>
+          <span className=" abs_pos ln_icon">
+          <a href="https://www.linkedin.com/in/sombhu-das-21176823a/">
+              <i className="primary_icon fa-brands fa-linkedin-in"></i>
+            </a>
+
+          </span>
+          <span className="abs_pos git_icon">
+            <a href="https://github.com/Sombhu2022">
+              <i className="primary_icon fa-brands fa-github"></i>
+            </a>
+          </span>
         </div>
       </div>
     </section>
