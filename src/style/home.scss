@@ -1,59 +1,108 @@
-#home{
-    // background: url("../images/background2.jpg");
-    // background-size: cover;
-    display: flex;
-    // flex-wrap: wrap;
-    padding: 20px 30px;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    .left_container{
-        padding: 10px 20px;
-        padding-right: 40px;
-        font-size: 20px;
-        width: 600px;
-        line-height:px;
-        >p {
-            text-align: justify;
-            font-size: 20px;
-            font-weight: bolder;
-             font-family:Georgia, 'Times New Roman', Times, serif;
-            >span{
-                color: rgb(103, 18, 109);
-        }
-        }
+#home {
+  // background: url("../images/background2.jpg");
+  // background-size: cover;
+  display: flex;
+  // flex-wrap: wrap;
+  padding: 20px 30px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  .left_container {
+    padding: 10px 20px;
+    padding-right: 40px;
+    font-size: 20px;
+    width: 600px;
+    line-height: px;
+    > p {
+      text-align: justify;
+      font-size: 20px;
+      font-weight: bolder;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      > span {
+        color: rgb(103, 18, 109);
+      }
     }
-    .right_container{
-      
-       .image_container {
+  }
+  .right_container {
+    .image_container{
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 450px;
+       
+        > img {
+          z-index: 1;
+          padding: 10px;
+          height: 300px;
+          width: 300px;
+          background: linear-gradient(45deg, rgb(29, 10, 74), rgb(226, 47, 208));
+          border-radius: 50%;
+          border: solid 2px rgb(236, 29, 236);
+          box-shadow: 10px 10px 30px violet;
+          box-sizing: content-box;
+        }
 
-           height: 300px;
-           width: 300px;
-           background: linear-gradient(45deg , rgb(29, 10, 74) , rgb(226, 47, 208));
-           border-radius: 50%;
+        &:hover .fb_icon{
+            margin-top: 400px;
+            opacity: 1;
+            // display: inline-block;
+            
+        }
+        &:hover .ln_icon{
+            margin-left: -200px;
+            margin-top: 355px;
+            transform: rotate(24deg);
+            opacity: 1;
+            
 
-           >img{
-                height: 100%;
-                width: 100%;
-                border-radius: 50%;
-                padding: 5px;
-                animation: animated ;
+        }
+        &:hover .git_icon{
+            margin-top: 355px;
+            opacity: 1;
+            margin-right: -200px;
+            transform: rotate(-24deg);
+            
+        }
+        .fb_icon{
+            transition: all 0.3s ease;
+         }
+         .ln_icon{
+            transition: all 0.8s ease;
+            >i{
+                padding: 10px 12px;
+           }
+         }
+         .git_icon{
+            transition: all 1.2s ease;
+
+         }
+
+        .abs_pos{
+            position: absolute;
+            opacity: 0;
+        //    z-index: -1;
+            
+            >i{
+                 margin: 0px 20px;
+                //  display: none;
             }
-       }
+           
+        }
     }
+  }
 }
 
-h1{
-    
-    display: inline-block;
-    background: linear-gradient(45deg ,rgb(103, 13, 103) , rgb(59, 110, 168));
-    stroke:1px solid black;
-    color:transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    // background-size: 100% 100%;
-    font-size: 30px;
-    font-weight:bolder;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1 {
+  display: inline-block;
+  background: linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
+  stroke: 1px solid black;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  // background-size: 100% 100%;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
