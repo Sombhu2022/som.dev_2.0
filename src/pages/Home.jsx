@@ -34,9 +34,7 @@ function Home() {
         </p>
         <button>About Me</button>
         <button>Resume</button>
-        <a href="https://www.facebook.com/sombhu.das.5268?mibextid=ZbWKwL">
-          <i className="primary_icon fa-brands fa-github"></i>
-        </a>
+        
       </div>
 
       <div className="right_container">
