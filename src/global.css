@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgba(209, 209, 244, 0.696);
 }
 button{
     margin: 5px 10px;
@@ -44,5 +45,5 @@ section{
 }
 :root{
     --violet:rgba(94, 18, 94, 0.95);
-    
+    --white:whitesmoke;
 }
