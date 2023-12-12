@@ -32,8 +32,8 @@ function Home() {
           degree in Computer Applications (BCA). I specialize in full stack
           development .
         </p>
-        <button>About Me</button>
-        <button>Resume</button>
+        <button>About Me <i class="fa-solid fa-eject fa-rotate-90"></i></button>
+        <button className="active">Resume <i class="fa-solid fa-file fa-fade"></i></button>
         
       </div>
 
