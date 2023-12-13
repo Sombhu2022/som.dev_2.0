@@ -7,8 +7,8 @@ function Header() {
   return (
    <header className="header_container">
       <nav class="nav_container" id="links">
-        <div className="logo_container"></div>
-        <div className="nav_links">
+        <div className="logo_container">SOMBHU DAS</div>
+        <div className="nav_links mobile_nav">
           <Link className="link">
               <FontAwesomeIcon className="icon" icon={faHouse}/> 
               <span>Home</span> 
