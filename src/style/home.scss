@@ -9,14 +9,26 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap-reverse;
-  margin-top: 50px 0;
+  margin-top: 50px ;
   .left_container {
     padding: 10px 20px;
     padding-right: 40px;
     font-size: 20px;
     width: 60%;
     line-height: px;
-    > p {
+   > h1 {
+      display: inline-block;
+      background: linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
+      stroke: 1px solid black;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      // background-size: 100% 100%;
+      font-size: 30px;
+      font-weight: bolder;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+    .typewriter_container {
       text-align: justify;
       font-size: 20px;
       font-weight: bolder;
@@ -25,6 +37,11 @@
         color: rgb(103, 18, 109);
       }
       
+    }
+    .description_para{
+        font-size: 20px;
+        font-weight: normal;
+        font-family:cursive; 
     }
     >button i{
       background: transparent;
@@ -100,18 +117,7 @@
   }
 }
 
-h1 {
-  display: inline-block;
-  background: linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
-  stroke: 1px solid black;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  // background-size: 100% 100%;
-  font-size: 30px;
-  font-weight: bolder;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+
 @media only screen and (max-width: 800px){
 
   #home {
@@ -148,7 +154,7 @@ h1 {
     }
   }
 }
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 330px) {
  #home .right_container {
     .image_container {
       >img{

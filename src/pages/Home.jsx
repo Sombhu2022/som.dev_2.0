@@ -13,8 +13,8 @@ function Home() {
           Hii , <br />
           I'm Sombhu Das
         </h1>
-        <br />
-        <p>
+        <br /><br/>
+        <p className="typewriter_container">
           I am a
           <Typewriter
             cursorColor="violet"
@@ -25,9 +25,8 @@ function Home() {
             cursorStyle="|"
             typeSpeed={40}
           />
-          <br></br>
         </p>
-        <p style={{ fontWeight: "normal", fontSize: "20px" }}>
+        <p className="description_para" >
           Motivated and ambitious student who recently completed a Bachelor's
           degree in Computer Applications (BCA). I specialize in full stack
           development .
