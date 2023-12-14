@@ -1,0 +1,54 @@
+.skills_container {
+//   background-size: cover;
+//   background-color: var(--white);
+opacity: 0.8;
+border-radius: 30px;
+// margin:5px 10px;
+// overflow: hidden;
+// width: 1000px;
+
+>h1{
+  
+  &:hover .line{
+       width: 110%; 
+   }
+  >div{
+      background: var(--gradient_color);
+      width: 20px;
+      height: 7px;
+      transition: all  ease-in-out 0.9s;
+      border-radius: 5px;
+      
+  }
+}
+.sub_container{
+    background: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+ 
+    .skills{
+
+        background:var(--white);
+        height: 600px;
+        width: 30rem;
+        border-radius: 30px ;
+        margin: 10px 10px;
+
+        .skill{
+            width: 150px;
+            height: 150px;
+            border: solid 1px var(--violet);
+            border-radius: 5px;
+            >img{
+                height: 80%;
+                width: 80%;
+                margin: 10% 10%;
+            }
+        }
+    }
+}
+
+}
