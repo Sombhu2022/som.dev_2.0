@@ -3,6 +3,7 @@
   height: 50px;
   padding: 5px 10px;
   border: solid 1px violet;
+  border-radius: 0 0 10px 10px;
   background: var(--white);
   position: sticky;
   top: 0;
@@ -82,7 +83,7 @@
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 800px) {
   .header_container{
     
     .nav_container{

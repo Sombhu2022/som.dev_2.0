@@ -4,11 +4,25 @@ import Home from './pages/Home.jsx';
 import Header from './pages/Header.jsx';
 import 'swiper/css'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Skills from './pages/Skills.jsx';
+import Projects from './pages/Projects.jsx';
+import ContactMe from './pages/ContactMe.jsx';
+import AboutMe from './pages/AboutMe.jsx';
 
 function App() {
   return (
-    <Router>
+    <div>
       <Header/>
+      <Home/>
+      {/* <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='#about' element={<AboutMe/>}/>
+        <Route path='#contactMe' element={<ContactMe/>}/>
+        <Route path='#project' element={<Projects/>}/>
+        <Route path='#skills' element={<Skills/>}/>
+       </Routes> */}
+      
+      
       {/* <Swiper
        spaceBetween={50}
       slidesPerView={3}
@@ -21,11 +35,9 @@ function App() {
       <SwiperSlide>Slide 4</SwiperSlide>
 
       </Swiper> */}
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-      </Routes>
+      
 
-    </Router>
+    </div>
     
    
   );

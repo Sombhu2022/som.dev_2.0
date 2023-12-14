@@ -2,14 +2,19 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "../style/home.scss";
 import dp from "../images/dp.png";
+import ContactMe from "./ContactMe";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import AboutMe from "./AboutMe";
 
 
 function Home() {
   return (
+    <>
     <section className="home_container" id="home">
       {/* <h1>home </h1> */}
       <div className="left_container">
-        <h1>
+        <h1 className="primary_heading">
           Hii , <br />
           I'm Sombhu Das
         </h1>
@@ -58,6 +63,12 @@ function Home() {
         </div>
       </div>
     </section>
+    
+    <AboutMe/>
+   <Skills/>
+   <Projects/>
+   <ContactMe/>
+   </>
   );
 }
 

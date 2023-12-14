@@ -2,32 +2,20 @@
   // background: url("../images/background2.jpg");
   // background-size: cover;
   display: flex;
-  
-  // flex-wrap: wrap;
-  padding: 20px 30px;
+  // height:100;
+  // border: solid 1px red;
   gap: 20px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap-reverse;
-  margin-top: 50px ;
+ 
   .left_container {
-    padding: 10px 20px;
-    padding-right: 40px;
+    padding: 10px 0px;
+    
     font-size: 20px;
     width: 60%;
     line-height: px;
-   > h1 {
-      display: inline-block;
-      background: linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
-      stroke: 1px solid black;
-      color: transparent;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      // background-size: 100% 100%;
-      font-size: 30px;
-      font-weight: bolder;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    }
+   
     .typewriter_container {
       text-align: justify;
       font-size: 20px;
@@ -125,6 +113,7 @@
     // height: 120vh;
     .left_container {
       width: 100%;
+      padding: 40px;
     }
     .right_container {
       width: 100%;

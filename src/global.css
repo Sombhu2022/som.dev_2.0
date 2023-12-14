@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgba(231, 231, 236);
+    background: rgba(232, 219, 241, 0.573);
 }
 button , button.active:hover{
     margin: 5px 10px 0px 0px;
@@ -39,15 +39,34 @@ i.primary_icon{
     color: white;
     font-size: 25px;
 }
-
+h1.primary_heading{
+    display: inline-block;
+    background: linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
+    stroke: 1px solid black;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+     /* background-size: 100% 100%; */
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
 section{
-    height: auto;
-    /* margin: 10px 30px; */
+    margin: 10px auto;
+    /* height:100vh; */
+    padding: 60px 20px;
+    max-width: 1200px;
 
 
+}
+header{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 :root{
     --violet:rgba(94, 18, 94, 0.95);
     --white:whitesmoke;
     --pink:rgba(184, 73, 184, 0.662);
+    --gradient_color:linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
+    --ligth_gradient_color:linear-gradient(125deg , rgba(222, 173, 222, 0.799) , rgba(161, 161, 204, 0.717));
 }
