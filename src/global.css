@@ -4,6 +4,21 @@
     box-sizing: border-box;
     background: rgba(232, 219, 241, 0.573);
 }
+:root{
+    --violet:rgba(94, 18, 94, 0.95);
+    --white:whitesmoke;
+    --pink:rgba(184, 73, 184, 0.662);
+    --gradient_color:linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
+    --ligth_gradient_color:linear-gradient(125deg , rgba(222, 173, 222, 0.799) , rgba(161, 161, 204, 0.717));
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background:var(--ligth_gradient_color);
+    border-radius: 5px;
+}
+
 button , button.active:hover{
     margin: 5px 10px 0px 0px;
     padding: 7px 20px;
@@ -63,11 +78,4 @@ section{
 header{
     max-width: 1200px;
     margin: 0 auto;
-}
-:root{
-    --violet:rgba(94, 18, 94, 0.95);
-    --white:whitesmoke;
-    --pink:rgba(184, 73, 184, 0.662);
-    --gradient_color:linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
-    --ligth_gradient_color:linear-gradient(125deg , rgba(222, 173, 222, 0.799) , rgba(161, 161, 204, 0.717));
 }
