@@ -41,6 +41,7 @@ i.primary_icon{
 }
 h1.primary_heading{
     display: inline-block;
+    
     background: linear-gradient(45deg, rgb(103, 13, 103), rgb(59, 110, 168));
     stroke: 1px solid black;
     color: transparent;

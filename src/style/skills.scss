@@ -1,11 +1,5 @@
 .skills_container {
-//   background-size: cover;
-//   background-color: var(--white);
-opacity: 0.8;
-border-radius: 30px;
-// margin:5px 10px;
-// overflow: hidden;
-// width: 1000px;
+
 
 >h1{
   
@@ -25,27 +19,46 @@ border-radius: 30px;
     background: transparent;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    overflow-x: scroll;
+    flex-direction: row;
+    // min-width: 100%;
+    // min-height: 600px;
+    overflow: auto;
  
     .skills{
 
         background:var(--white);
-        height: 600px;
-        width: 30rem;
+        height:auto;
+        min-width: 500px;
+        margin:0 5px;
         border-radius: 30px ;
         margin: 10px 10px;
-
+        display: flex;
+        flex-wrap:wrap;
+        overflow-x: auto;
+        justify-content: center;
+        // align-items: start;   
+       
+        >h1{
+            width: 100%;
+            text-align: center;
+            margin: 5px 0;
+            height: 50px;
+        }     
         .skill{
-            width: 150px;
-            height: 150px;
+            height: 100px;
+            width: 100px;
             border: solid 1px var(--violet);
             border-radius: 5px;
+            margin:5px 20px;
             >img{
-                height: 80%;
-                width: 80%;
-                margin: 10% 10%;
+                background: transparent;
+                max-width: 50px;
+                max-height: 50px;
+                margin: 10px 25px;
+            }
+            >p{
+                background: transparent;
+                text-align: center;
             }
         }
     }

@@ -4,7 +4,7 @@ function SkillComponent({name , image}) {
   return (
     <div className='skill'>
         <img src={image} alt="" />
-        {/* <span className='name'>{name}</span> */}
+        <p className='name'>{name}</p>
     </div>
   )
 }

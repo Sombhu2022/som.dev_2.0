@@ -15,6 +15,9 @@ import php from "../images/skills/php.png";
 import django from "../images/skills/django.png";
 import boots from "../images/skills/boots.png";
 import SkillComponent from "../components/SkillComponent";
+import Api from "../images/skills/api.png"
+import figma from "../images/skills/figma.png"
+import mysql from "../images/skills/mysql.jpg"
 
 function Skills() {
   const [skill , setSkill] = useState([
@@ -30,15 +33,19 @@ function Skills() {
       { name: "Node", logo: node },
       { name: "Express", logo: express },
       { name: "Django", logo: django },
+      { name: "PHP", logo: php },
       
     ]},
     {database: [
-      { name: "MongoDB", logo: mongo },
       
+      { name: "MongoDB", logo: mongo },
+      { name: "MySql", logo: mysql},
     ]},
    { others: [
-      { name: "git", logo: git},
-      { name: "Api", logo: js },
+
+      { name: "git & github", logo: git},
+      { name: "Figma", logo: figma},
+      { name: "Api", logo: Api},
     ]}
   ]);
 
@@ -51,7 +58,8 @@ function Skills() {
       <div className="sub_container">
         {/* {skill[0].frontend} */}
         <div className="skills">
-
+        <h1 className="primary_heading">Frontend</h1>
+         
           {skill[0].frontend.map((ele, index) => {
             
             return (
@@ -61,6 +69,7 @@ function Skills() {
           })}
         </div>
         <div className="skills">
+          <h1 className="primary_heading">Backend</h1>
           {skill[1].backend.map((ele, index) => {
             return (
               <SkillComponent key={index} image={ele.logo} name={ele.name}/>
@@ -69,6 +78,8 @@ function Skills() {
         </div>
 
         <div className="skills">
+        <h1 className="primary_heading">Database</h1><br/>
+
           {skill[2].database.map((ele, index) => {
             return (
               <SkillComponent key={index} image={ele.logo} name={ele.name}/>
@@ -77,6 +88,8 @@ function Skills() {
           })}
         </div>
         <div className="skills">
+        <h1 className="primary_heading">Others</h1>
+
           {skill[3].others.map((ele, index) => {
             return (
               <SkillComponent key={index} image={ele.logo} name={ele.name}/>
