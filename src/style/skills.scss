@@ -2,7 +2,7 @@
 
 
 >h1{
-  
+   
   &:hover .primary_line_of_heading{
        width: 150px; 
   }
@@ -33,8 +33,10 @@
         >h1{
             width: 100%;
             text-align: center;
-            margin: 5px 0;
+            margin: 10px 0;
             height: 50px;
+            font-size: 20px;
+            
         }     
         .skill{
             height: 100px;
@@ -52,6 +54,7 @@
                 background: transparent;
                 text-align: center;
             }
+           
         }
     }
 }

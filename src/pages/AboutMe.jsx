@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/about.scss'
+import Qualifications from './Qualifications'
 
 function AboutMe() {
   return (
@@ -8,6 +9,7 @@ function AboutMe() {
       <div className='image_container'>
         <img src="" alt="" />
       </div>
+      <Qualifications/>
     </section>
   )
 }
