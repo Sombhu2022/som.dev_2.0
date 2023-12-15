@@ -53,7 +53,7 @@ function Skills() {
   return (
     <section id="skills" className="skills_container">
       <h1 className="primary_heading ">
-        Skills <div className="line"></div>{" "}
+        Skills <div className="primary_line_of_heading"></div>{" "}
       </h1>
       <div className="sub_container">
         {/* {skill[0].frontend} */}
