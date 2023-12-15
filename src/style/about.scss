@@ -5,21 +5,6 @@
   opacity: 0.8;
   border-radius: 30px;
 
-
- >h1{
-    
-    &:hover .line{
-         width: 150px; 
-     }
-    >div{
-        background: var(--gradient_color);
-        width: 20px;
-        height: 7px;
-        transition: all  ease-in-out 0.9s;
-        border-radius: 5px;
-        
-    }
- }
  .image_container{
     background: var(--ligth_gradient_color);
     height: 250px;
