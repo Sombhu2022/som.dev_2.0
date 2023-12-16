@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
 import ProjectComponent from "../components/ProjectComponent";
 import projects from "../data/projectData";
 import '../style/project.scss'
