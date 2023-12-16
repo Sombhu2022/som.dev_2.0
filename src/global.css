@@ -19,32 +19,39 @@
     border-radius: 5px;
 }
 
-button , button.active:hover{
+a,a:active,a:visited{
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+.button , .button.active:hover{
     margin: 5px 10px 0px 0px;
     padding: 7px 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: solid 1px rgba(90, 16, 90, 0.847);
+    border: solid 1px var(--violet);
     background: transparent;
-    color:rgba(94, 15, 94) ;
+    color:var(--violet) ;
     border-radius: 50px;
     font-size: 20px;
     cursor:pointer;
     transition: 0.4s ease;
     width: 200px;
-    /* display: block;
-    width: 300px;
-    margin: auto; */
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
     
 }
-button:hover , button.active{
+.button:hover , .button.active{
     color: white;
     border: solid 1px transparent;
     background: linear-gradient(45deg , rgba(94, 15, 94, 0.881) , rgba(184, 73, 184, 0.662));
 }
 
-/* button::after{
-    content: '\f08e';
-} */
+.button i{
+    margin-left: 5px;
+}
 
 .primary_icon{
     border:  solid 2px rgba(88, 13, 88, 0.539);

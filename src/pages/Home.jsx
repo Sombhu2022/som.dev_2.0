@@ -38,12 +38,14 @@ function Home() {
             only look great but also provide an excellent user experience. From
             front-end design to back-end development.
           </p>
-          <button>
+          <div style={{marginTop:"20px",background:"transparent"}}>
+          <a href="#about" className="button">
             About Me <i class="fa-solid fa-eject fa-rotate-90"></i>
-          </button>
-          <button className="active">
+          </a>
+          <a href="/" className="button active">
             Resume <i class="fa-solid fa-file fa-fade"></i>
-          </button>
+          </a>
+          </div>
         </div>
 
         <div className="right_container">

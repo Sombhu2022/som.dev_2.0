@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../style/about.scss";
 import Qualifications from "./Qualifications";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBrain, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function AboutMe() {
-  const [text, setText] = useState("");
   const message =
     "Hello, and welcome to my digital space! I am currently pursuing my MCA, where I have been honing my skills in various aspects of computer science. My academic journey has equipped me with a strong foundation in programming, algorithms, and software development methodologies.";
 
@@ -18,9 +17,9 @@ function AboutMe() {
       <Qualifications />
       <div>
               
-       <button className="primary_button">My Skill <FontAwesomeIcon className="icon" icon={faBrain}/>  </button>
+       <a href="#skills" className="button primary_button">My Skill <FontAwesomeIcon className="icon" icon={faBrain}/>  </a>
               
-      <button className="primary_button">contact Me  <FontAwesomeIcon className="icon" icon={faPhone}/> </button>
+      <a href="#contact" className="button primary_button">contact Me  <FontAwesomeIcon className="icon" icon={faPhone}/> </a>
       </div>
     </section>
   );

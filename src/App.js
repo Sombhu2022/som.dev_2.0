@@ -1,13 +1,13 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './global.css';
 import Home from './pages/Home.jsx';
 import Header from './components/Header.jsx';
-import 'swiper/css'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import Skills from './pages/Skills.jsx';
-import Projects from './pages/Projects.jsx';
-import ContactMe from './pages/ContactMe.jsx';
-import AboutMe from './pages/AboutMe.jsx';
+// import 'swiper/css'
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import Skills from './pages/Skills.jsx';
+// import Projects from './pages/Projects.jsx';
+// import ContactMe from './pages/ContactMe.jsx';
+// import AboutMe from './pages/AboutMe.jsx';
 
 function App() {
   return (

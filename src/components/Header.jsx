@@ -1,6 +1,5 @@
 import React from "react";
 import '../style/header.scss'
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook,  faBrain, faCode, faHouse, faPhone } from "@fortawesome/free-solid-svg-icons";
 function Header() {

@@ -1,7 +1,0 @@
-{
-  "skill": {
-    "frontend": [{"name":"javaScript" , "logo":"../images/skill/html.png"}],
-    "backend": [""],
-    "others": [""]
-  }
-}
