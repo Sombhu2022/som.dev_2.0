@@ -1,6 +1,6 @@
 .skills_container {
-
-
+    padding: 60px 0px;
+    
 >h1{
    
   &:hover .primary_line_of_heading{
@@ -21,9 +21,8 @@
         background:var(--white);
         height:auto;
         min-width: 400px;
-        margin:0 5px;
-        border-radius: 30px ;
-        margin: 10px 10px;
+        border-radius: 15px ;
+        margin: 10px;
         display: flex;
         flex-wrap:wrap;
         overflow-x: auto;
