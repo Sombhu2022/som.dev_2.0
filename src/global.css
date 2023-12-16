@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background: rgba(232, 219, 241, 0.573);
+    scroll-behavior: smooth;
 }
 :root{
     --violet:rgba(94, 18, 94, 0.95);
@@ -21,7 +22,7 @@
 
 a,a:active,a:visited{
     text-decoration: none;
-    /* color: inherit; */
+    color: var(--violet);
 }
 
 .button , .button.active:hover{
