@@ -46,14 +46,24 @@ button:hover , button.active{
     content: '\f08e';
 } */
 
-i.primary_icon{
+.primary_icon{
     border:  solid 2px rgba(88, 13, 88, 0.539);
     padding: 10px;
     border-radius: 50%;
-    background: rgba(94, 18, 94, 0.95);
-    color: white;
+    /* background: rgba(94, 18, 94, 0.95); */
+    background: transparent;
+    /* color: white; */
+    color: var(--violet);
     font-size: 25px;
+    transition: all ease 0.5s;
 }
+.primary_icon:hover{
+    color:var(--white);
+    background:var(--violet);
+    border:solid 2px transparent;
+}
+
+
 .primary_heading{
     display: inline-block;
     text-align: center;

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './global.css';
 import Home from './pages/Home.jsx';
-import Header from './pages/Header.jsx';
+import Header from './components/Header.jsx';
 import 'swiper/css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Skills from './pages/Skills.jsx';

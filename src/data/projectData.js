@@ -36,7 +36,7 @@ const data = [
     option: [
       { name: "source code", link: "https://github.com/Sombhu2022/StudentQ" },
       
-      { name: "Play Game", link: "https://tic-tac-toe-sombhu2022.vercel.app/" },
+      { name: "Play", link: "https://tic-tac-toe-sombhu2022.vercel.app/" },
     ],
   },
 ];
