@@ -24,9 +24,8 @@
 
 a,a:active,a:visited{
     text-decoration: none;
-
     color: var(--violet);
-
+}
 
 .button , .button.active:hover{
     margin: 5px 10px 0px 0px;
