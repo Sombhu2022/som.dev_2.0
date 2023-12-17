@@ -19,6 +19,7 @@ function Projects() {
           image={project.image}
           technologys={project.technology}
           options={project.option}
+          img_alt={project.image_alt}
         />);
         
       })}

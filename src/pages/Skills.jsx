@@ -15,7 +15,7 @@ function Skills() {
       </h1>
       <div className="sub_container">
         {/* {skill[0].frontend} */}
-        <div className="skills">
+        <div className="skills" data-aos="fade-down-right">
         <h1 className="primary_heading">Frontend</h1>
          
           {skill[0].frontend.map((ele, index) => {
@@ -26,7 +26,7 @@ function Skills() {
             );
           })}
         </div>
-        <div className="skills">
+        <div className="skills" data-aos="fade-down">
           <h1 className="primary_heading">Backend</h1>
           {skill[1].backend.map((ele, index) => {
             return (
@@ -35,7 +35,7 @@ function Skills() {
           })}
         </div>
 
-        <div className="skills">
+        <div className="skills" data-aos="fade-down-left">
         <h1 className="primary_heading">Database</h1><br/>
 
           {skill[2].database.map((ele, index) => {
@@ -45,7 +45,7 @@ function Skills() {
             );
           })}
         </div>
-        <div className="skills">
+        <div className="skills" data-aos="fade-down-left">
         <h1 className="primary_heading">Others</h1>
 
           {skill[3].others.map((ele, index) => {

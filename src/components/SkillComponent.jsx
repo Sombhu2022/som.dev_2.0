@@ -2,7 +2,7 @@ import React from 'react'
 
 function SkillComponent({name , image}) {
   return (
-    <div className='skill'>
+    <div className='skill' >
         <img src={image} alt="" />
         <p className='name'>{name}</p>
     </div>

@@ -8,11 +8,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Qualifications() {
   return (
-    <div className="qualification_container">
+    <div className="qualification_container" >
       <h1 className="primary_heading ">
         Qualification <div className="primary_line_of_heading"></div>{" "}
       </h1>
-      <div className="slider-div">
+      <div className="slider-div" data-aos="fade-left">
       <Carousel infiniteLoop autoPlay showArrows={false} showThumbs={false} showStatus={false} interval={2000} stopOnHover={true}>
       {qualifications.map((qualification) => {
         return (
