@@ -14,7 +14,7 @@ function Home() {
     <>
       <section className="home_container" id="home">
         {/* <h1>home </h1> */}
-        <div className="left_container">
+        <div className="left_container" data-aos={"fade-up"}>
           <h1 className="primary_heading">
             Hii , <br />
             I'm Sombhu Das
@@ -48,7 +48,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="right_container">
+        <div className="right_container" data-aos="zoom-in-down">
           <div className="image_container">
             <img src={dp} alt="" />
             <span className=" abs_pos fb_icon">
