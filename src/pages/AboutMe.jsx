@@ -14,7 +14,7 @@ function AboutMe() {
         About Me <div className="primary_line_of_heading"></div>{" "}
       </h1>
       <p className="typewriter_container"  data-aos="fade-right">{message}</p>
-      <Qualifications  data-aos="fade-left"/>
+      <Qualifications  />
       <div>
               
        <a href="#skills" className="button primary_button">My Skill <FontAwesomeIcon className="icon" icon={faBrain}/>  </a>
