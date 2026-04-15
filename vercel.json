@@ -4,11 +4,6 @@
             "source": "/",
             "destination": "https://sombhu.in",
             "permanent": true
-        },
-        {
-            "source": "/:path*",
-            "destination": "https://sombhu.in/:path*",
-            "permanent": true
         }
     ]
 }
